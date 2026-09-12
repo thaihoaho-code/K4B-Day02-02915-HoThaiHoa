@@ -16,22 +16,22 @@
 Ghi việc cụ thể + kết quả cụ thể. Không ghi chung chung kiểu "tham gia thảo luận".
 
 | Hoạt động | Tôi đã làm gì? (việc cụ thể) | Kết quả / ảnh hưởng tới nhóm |
-|---|---|---|
-| Scan cá nhân | Tôi scan 9 vấn đề trong các công việc hằng tuần, trong đó có kiểm tra email, ghi chú từ PDF, debug và tìm thông tin trên Facebook/Discord. | Giúp nhóm có các candidate có actor, số đo thời gian và nhiều góc nhìn để so sánh. |
-| Pitch Problem Card | Tôi pitch Card #2 về trích xuất note và công thức từ PDF sang Markdown/LaTeX, với baseline ghi note mất khoảng 1,5 lần thời gian đọc. | Nhóm ghi nhận đây là bài có input/output rõ và dễ prototype, nhưng chưa chọn vì candidate deadline/lab sát domain chung hơn. |
-| Challenge bài của bạn khác | Tôi đặt câu hỏi về độ chính xác của AI khi tóm tắt slides cùng công thức toán và nguy cơ công thức sai nhưng người dùng không nhận ra. | Nhóm đưa human review và link/ảnh nguồn gốc thành boundary bắt buộc khi dùng AI. |
-| Gom trùng / cluster | Tôi cùng nhóm gom các candidate thành các cụm retrieval, research/debugging, productivity và knowledge capture. | Nhóm nhận ra nhiều ý khác nhau cùng có pattern thông tin phân tán phải được chuyển thành hành động. |
-| Chọn candidate problem | Tôi tham gia so sánh các shortlist và đồng thuận chọn bài gom deadline, requirement lab từ Vlearn, README, worksheet, Discord và GitHub. | Nhóm chọn được scope cụ thể, gần với trải nghiệm của tất cả thành viên và có thể pilot bằng dữ liệu thật. |
-| Validation / research | Tôi tham gia phản biện kết quả interview, self-observation và research về Notion, Gemini Notebook, Structured Outputs và reminder rule-based. | Nhóm phân biệt được bằng chứng trực tiếp với giả định; baseline 15-25 phút/lab được giữ là số cần đo lại trong pilot. |
-| Workflow nhóm | Với vai trò facilitator, tôi góp phần làm rõ current workflow, bottleneck ở bước hợp nhất requirement và future workflow có human review. | Workflow được thu hẹp từ 6 bước thủ công xuống 4 bước, với mục tiêu gom requirement + tạo checklist nháp dưới 7 phút. |
-| Problem Statement | Tôi góp ý làm rõ actor là học viên AI20K, source-of-truth, input được cung cấp và các field cần trích xuất. | Problem Statement v0/v1 có metric, boundary, fallback và không biến bài toán thành quản lý toàn bộ deadline học tập. |
-| Rule / Workflow / Agent | Tôi tham gia đánh giá và ủng hộ dùng Rule cho template/chuẩn hóa, AI Workflow cho semantic extraction, chưa dùng Agent tự trị. | Nhóm chọn đúng mức Workflow vì quy trình tuyến tính nhưng input là ngôn ngữ tự nhiên và có thể mâu thuẫn. |
-| Decision | Tôi cùng nhóm chốt pilot có phạm vi nhỏ, AI chỉ tạo checklist nháp và học viên phải đối chiếu trước khi sử dụng. | Quyết định Go có điều kiện, giảm rủi ro hallucination và vẫn có fallback về `todo.md` thủ công. |
+| --- | --- | --- |
+| Scan cá nhân | Mình list ra 9 vấn đề từ cviec hằng tuần của mình, kiểu check email, lấy note từ PDF, debug vs đi lùng info trên FB/Discord. | Cung cấp cho nhóm mấy candidate có đủ actor, có tgian cụ thể với nhìu góc nhìn để dễ so sánh. |
+| Pitch Problem Card | Mình pitch Card #2 note vs công thức từ PDF sang Markdown/LaTeX, baseline là mất 1.5 lần tgian đọc. | Team chốt là bài này input/output ổn đẻ làm prototype, nhưng mà không chọn vì Card lab deadline sát với pain của cả nhóm hơn. |
+| Challenge bài của bạn khác | Mình hỏi vụ AI tóm tắt slide có công thức, lỡ nó tóm tắt sai công thức toán mà người dùng không biết, không nhận ra thì nguy hiểm. | Team phải thêm cái bước "human review" và kèm link ảnh gốc làm boundary bắt buộc. |
+| Gom trùng / cluster | Gom các candidate của mng lại thành các nhóm. | Nhóm nhìn ra 1 cái pattern chung là info đang bị phân tán quá, cần gom lại thành action. |
+| Chọn candidate problem | Cùng các bạn ngồi cân nhắc các shortlist rồi chốt bài gom deadline, gom requirement lab từ Vlearn, Github, Discord... | Team chốt dc cái scope rõ ràng, trải nghiệm thực tế ai cũng có thể bị. |
+| Validation / research | Mình phản biện lại mấy cái kết quả phỏng vấn vs tự research về Notion, Gemini, Structured Outputs, với mấy cái nhắc nhở rule-based. | Giúp team bóc tách dc đâu là bằng chứng thật đâu là assumption. |
+| Workflow nhóm | Làm facilitator nên mình ráng clear lại cái current workflow, tìm chỗ bottleneck lúc gom requirement, rồi vẽ future workflow có người review. | Thu gọn được workflow từ 6 bước manual xuống còn 4 bước|
+| Problem Statement | Góp ý vô phần actor cho rõ là học viên AI20K, source-of-truth lấy ở đâu, field nào cần lấy ra. | Cái PS v0/v1 nó có đủ metric, boundary vs fallback |
+| Rule / Workflow / Agent | bàn luận dùng Rule cho mấy cái template, còn AI Workflow thì để xài cho phần extraction. Chưa cần Agent. | Nhóm đi đúng hướng Workflow vì flow cơ bản là tuyến tính. |
+| Decision | Cùng team chốt làm pilot nhỏ thôi, AI chỉ tạo ra checklist nháp rùi người học phải tự check lại. | Ra quyết định Go nhưng có điều kiện, giảm thiểu vụ hallucination và fallback về cái `todo.md`. |
 
 **Dấu tay rõ nhất của tôi trong artifact cuối (1-2 câu):**
 
 ```text
-Tôi đóng góp rõ nhất ở việc đưa ra Card PDF → Markdown/LaTeX và challenge rủi ro AI nhận diện sai công thức, từ đó giúp nhóm coi human review và source trace là bắt buộc. Với vai trò facilitator, tôi cũng góp phần giữ candidate cuối ở scope “gom requirement của một Lab AI20K”, thay vì mở rộng thành một agent quản lý mọi deadline.
+Mình chỉ ra được điểm khó nhất của workflow: lỡ thông tin trên Vlearn, README và Discord đá nhau thì sao? Team phải chọn rule xác định rõ đâu là source of truth ưu tiên cao nhất thay vì thả cho AI tự đoán hoặc fallback hoặc báo lỗi khi gặp trường hợp này.
 ```
 
 ---
@@ -39,14 +39,14 @@ Tôi đóng góp rõ nhất ở việc đưa ra Card PDF → Markdown/LaTeX và 
 ## 2. Bảng dùng AI (mỗi dòng 1 phase có dùng AI — 2 cột cuối bắt buộc)
 
 | Phase | Tôi dùng AI để làm gì? | AI hữu ích ở đâu? | AI sai / hời hợt ở đâu? | Tôi sửa gì bằng nhận định của mình? |
-|---|---|---|---|---|
-| Scan | Gợi ý các pain point tiềm ẩn từ danh sách công việc hằng tuần. | Gợi ra việc đặt câu hỏi trên diễn đàn và tổng hợp note rải rác, là hai ý tôi giữ lại để xem xét. | Một số gợi ý như sửa format khi copy PDF hoặc cập nhật lịch thủ công chưa có đủ pain evidence. | Tôi tự giữ các vấn đề có số đo và bỏ các ý chỉ nghe có vẻ tiện lợi nhưng chưa phải pain thật. |
-| Problem Card | Phản biện cách mô tả actor, workflow, bottleneck và AI hypothesis cho các card. | Giúp tôi nhìn rõ human boundary của Card PDF. | AI không tự biết rủi ro bản quyền, OCR sai công thức hoặc lỗi LaTeX có thể khó phát hiện. | Tôi bổ sung câu hỏi challenge về công thức sai, chi phí API và yêu cầu giữ ảnh/link PDF để đối chiếu. |
-| Workflow | Hỗ trợ diễn đạt current/future workflow và phân tách phần người, rule, AI. | Giúp nhóm biểu diễn nhanh việc gom nguồn → trích xuất → review → checklist. | Gợi ý tự động hóa dễ làm scope phình ra thành Agent truy cập mọi hệ thống. | Tôi giữ bước người gom input, bước human review và fallback thủ công; không giả định có API Vlearn/Discord. |
-| Research | Hỗ trợ tìm hướng giải pháp và đối chiếu pattern đã có. | Các pattern source citation, notebook theo nguồn, structured extraction và reminder rule-based giúp nhóm tránh build từ đầu. | Kết quả AI không mặc nhiên là bằng chứng; sản phẩm có thể không hỗ trợ Vlearn hoặc Discord private. | Tôi chỉ giữ link có thể kiểm tra, ghi rõ khoảng trống và tách research evidence khỏi số liệu tự quan sát. |
-| Problem Statement | Gợi ý cách viết actor, bottleneck, impact, metric và boundary. | Giúp nhóm phát hiện các field còn mơ hồ như source-of-truth và fallback. | AI có xu hướng viết problem rộng như “quản lý deadline học tập” và coi baseline là đã được xác nhận. | Tôi cùng nhóm thu hẹp vào một lab cụ thể, giữ source cho từng mục và ghi baseline 15-25 phút là cần đo lại. |
-| Rule / Workflow / Agent | So sánh ba mức tự động hóa trên cùng một workflow. | Làm rõ Rule đủ cho template/reminder, còn AI cần ở bước hiểu ngôn ngữ tự nhiên. | AI có thể mặc định chọn Agent vì nghe mạnh hơn, dù bài toán chưa cần lập kế hoạch động. | Tôi ủng hộ quyết định Workflow, dùng Rule ở phần chuẩn hóa và bắt buộc người học approve checklist. |
-| Decision | Kiểm tra các điều kiện Go/Not Yet/No-Go và rủi ro khi AI sai. | Giúp nhóm liệt kê rõ owner review, input pilot và metric đo được. | AI không thể thay nhóm quyết định source nào là đúng khi các nguồn mâu thuẫn. | Nhóm chọn Go có điều kiện: pilot manual input, human review, tài liệu gốc là source-of-truth và có fallback `todo.md`. |
+| --- | --- | --- | --- | --- |
+| Scan | Quăng list cviec vô nhờ nó mớm mấy cái pain point tiềm năng. | Gợi ý dc vụ hay hỏi vặt trên forum vs note rải rác, mình nhặt lại 2 ý này. | Mấy cái gợi ý như sửa format copy từ PDF hay tự update lịch nghe dể ăn nhưng chưa có pain thật. | Tự lọc lại, giử mấy cái có số liệu đo đạc dc, bỏ mấy cái ảo ma đi. |
+| Problem Card | Kêu AI đóng vai người phản biện để soi mấy cái actor, workflow vs bottleneck. | Giúp mình nhìn ra giới hạn của con người trong cái Card PDF. | Nó k tự lường dc dụ bản quyền, hay lỗi OCR công thức toán nhìn lướt khó thấy. | Mình đắp thêm câu hỏi challenge vụ công thức, chi phí gọi API vs bắt buộc lưu link PDF gốc. |
+| Workflow | Nhờ nó draft cái workflow hiện tại/tương lai, chia ranh giới người/AI rõ ràng. | Biểu diễn nhanh dc cái flow: gom nguồn -> bóc tách -> review -> ra checklist. | Cứ hở tí là nó đòi tự động hoá, đòi xài Agent chọc API tè le hệ thống. | Mình chốt giữ lại bước người tự gom input vs human review; k giả định là có API Vlearn hay Discord đâu. |
+| Research | Bắt nó search mấy hướng giải pháp coi có pattern gì giống k. | Ra dc mấy cái hay như source citation, notebook, extraction đỡ mắc công tự vọc từ zero. | AI đưa link nhiều khi ảo, với k chắc sp đó nó work vs Vlearn hay Discord kín của nhóm. | Chỉ lấy mấy link check dc thật, tự tay tách cái research evidence ra khỏi mấy cái tự assumption. |
+| Problem Statement | Nhờ nó viết draft thử cái PS cho chuẩn format (actor, impact, metric...). | Khui ra dc mấy chỗ còn lấn cấn như thiếu source-of-truth vs fallback. | Bệnh cũ của AI là hay viết PS siêu rông (quản lý học tập), vs cứ mặc định cái baseline là đúng r. | Kéo team lại thu hẹp vô 1 lab, ghi rõ source cho từng món và note con số 15-25p là cái cần phải đi đo lại. |
+| Rule / Workflow / Agent | Kêu nó so sánh 3 cái level auto này ốp vô cái workflow của nhóm xem sao. | Clear dc là Rule dư sức làm template, còn AI chỉ nhét vô chỗ hiểu ngôn ngữ tự nhiên thôi. | Nghe mùi nó muốn xúi xài Agent cho nó ngầu, dù bài mình chưa cần lập kế hoạch động gì. | Chốt cứng là xài Workflow, phần nào chuẩn hoá dc thì ốp Rule, vs bắt buộc user phải approve nháp. |
+| Decision | Kêu nó rà lại coi đủ đk Go/No-Go chưa và list rủi ro lỡ AI ngáo. | List dc khá rõ ai owner review, input lấy đâu vs metric là gì. | Khi các nguồn (ví dụ Vlearn vs Discord) mà mâu thuẩn nhau thì AI nó ngu lun k biết nghe ai. | Chốt Go có đk: bắt nhập tay pilot, người review cuối, dùng doc gốc làm chân lý vs có đg lùi về text thủ công. |
 
 > Nếu phase nào không dùng AI, ghi `Không dùng` và vì sao tự làm.
 
@@ -55,21 +55,20 @@ Tôi đóng góp rõ nhất ở việc đưa ra Card PDF → Markdown/LaTeX và 
 ## 3. Reflection câu hỏi mở
 
 Chọn 3-4 câu trong 6 câu dưới để viết thành đoạn 8-12 câu (không trả lời bullet 1 dòng):
-- Tôi học được gì khi nghe top 3 problems của các bạn khác?
-- Nhóm có lúc nào bị solution-first, đòi làm Agent cho ngầu không?
-- Tôi có thay đổi ý kiến sau khi bị challenge không, vì sao đổi?
-- Tôi đóng góp gì thật sự vào artifact cuối, phần nào có dấu tay của tôi?
-- Điều khó nhất khi viết Problem Statement là gì, metric hay boundary?
-- Nếu làm lại, tôi sẽ challenge nhóm mạnh hơn ở điểm nào?
+
+* Tôi học được gì khi nghe top 3 problems của các bạn khác?
+* Nhóm có lúc nào bị solution-first, đòi làm Agent cho ngầu không?
+* Tôi có thay đổi ý kiến sau khi bị challenge không, vì sao đổi?
+* Tôi đóng góp gì thật sự vào artifact cuối, phần nào có dấu tay của tôi?
+* Điều khó nhất khi viết Problem Statement là gì, metric hay boundary?
+* Nếu làm lại, tôi sẽ challenge nhóm mạnh hơn ở điểm nào?
 
 **Reflection:**
 
 ```text
-Ban đầu tôi tập trung vào các pain point cá nhân như tìm thông tin trên Facebook/Discord và chuyển PDF thành note, vì đó là những việc tôi trực tiếp làm hằng ngày. Khi nghe top 3 của các bạn, tôi nhận ra nhiều vấn đề khác nhau đều quy về việc thông tin nằm rải rác rồi người học phải tự chuyển thành một hành động cụ thể. Tôi pitch bài PDF → Markdown/LaTeX vì workflow rõ và có metric tốt, nhưng sau khi challenge độ chính xác của công thức, tôi thấy nó cần validation kỹ hơn trước khi chọn. Tôi đồng ý chọn bài gom deadline và requirement lab vì actor là chính nhóm, dữ liệu pilot có sẵn và bottleneck có thể đo bằng timer. Đóng góp quan trọng của tôi là giữ cho bài toán không bị mở rộng thành một agent tự truy cập Vlearn, Discord và GitHub. Trong lúc viết Problem Statement, tôi học được rằng metric thời gian chưa đủ; mỗi output quan trọng còn phải giữ source để người dùng kiểm tra. Tôi cũng nhận ra AI hữu ích nhất ở bước đọc và cấu trúc ngôn ngữ tự nhiên, còn template, reminder và format cố định có thể dùng rule đơn giản. Human review không phải phần thừa của workflow mà là boundary để kiểm soát việc AI bỏ sót hoặc hiểu sai deadline, file và field. Nếu làm lại, tôi sẽ challenge nhóm sớm hơn về source-of-truth khi Vlearn, README và Discord có thông tin mâu thuẫn. Tôi cũng sẽ đo timer trên nhiều lab và nhiều người trước khi dùng baseline 15-25 phút/lab để kết luận impact.
+Ban đầu lúc scan mình chỉ chăm chăm vô mấy cái pain point cá nhân kiểu kiếm info trên FB/Discord dạo vs chế PDF sang note, tại bthg làm suốt. Nhưng lúc nghe top 3 problems của mng thì mình mới vỡ lẽ ra là nhìu cái pain khác nhau cuối cùng cũng chung 1 gốc: info nằm rải rác tứ lung tung bắt người học phải đi nhặt rồi mới action dc. Mình từng pitch bài PDF -> Note vì flow nó trong sáng dễ đo time, cơ mà lúc bị challenge vụ AI đọc sai công thức thì mình thấy nó cần validate khoai quá. Thế là chốt luôn chọn bài gom deadline lab của team, vì tự tụi mình là actor lun, data pilot có sẵn lại dể bấm giờ coi bottleneck nằm đâu. Cái phần đóng góp mà mình thấy bự nhất là níu kéo team ko cho làm cái agent bự chà bá đòi tự cào data Vlearn vs Discord. Lúc viết Problem Statement mới thấy chua, đo timer thôi k đủ đâu, output ra cái gì cũng phải kèm cái link source cho ngta double check. Mình rút ra là AI nó chỉ thật sự ngon khúc cấu trúc lại ngôn ngữ tự nhiên, mấy cái template fix cứng hay nhắc lịch cứ táng Rule vô cho nhẹ server. Cái bước human review hông phải gắn vô cho đẹp đội hình, mà nó là cái phanh an toàn lỡ AI nó cắn thiếu file hay đọc lộn deadline. Nấu mà cho làm lại á, mình sẽ dí team mạnh hơn từ đầu cái vụ source-of-truth: lỡ thầy update trên Discord mà Vlearn chưa có thì nghe ai? Với lại cũng phải bắt đi đo timer nhìu người nhìu lab chứ k xài chay cái base 15-25p nữa.
+
 ```
-
----
-
 ## 4. Tự kiểm cuối bài (check trước khi nộp repo)
 
 - [x] [12đ] Cá nhân có 5+ problems + top 3 Problem Cards
